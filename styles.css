@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 20px;
+}
+
+.weather-icon {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.forecast-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.info-box {
+    padding: 15px 10px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.info-box:hover {
+    background-color: #e9ecef;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-title {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.info-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+.temperature {
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #6c757d;
+}
+
+.temp-label {
+    color: #6c757d;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.temp-value {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.forecast-details {
+    font-size: 0.9rem;
+}
+
+.forecast-days .card-footer {
+    background-color: rgba(13, 110, 253, 0.05);
+    border-top: 1px solid rgba(13, 110, 253, 0.1);
+    padding: 12px;
+    font-size: 0.85rem;
+    color: #495057;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
